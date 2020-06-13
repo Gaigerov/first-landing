@@ -1,0 +1,47 @@
+@import url('./fonts/font.css');
+@import url('./colors.css');
+
+@import url('./components/block/Block.css');
+@import url('./components/card/Card.css');
+@import url('./components/button/Button.css');
+
+html, body {
+    height: 100%;
+    min-width: 1200px;
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--font-common);
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.text-center {
+    text-align: center;
+}

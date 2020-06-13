@@ -1,0 +1,25 @@
+.Card {
+    display: flex;
+    margin: 0 15px;
+}
+
+.Card__body {
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.Card__image {
+    width: 110px;
+    height: 110px;
+}
+
+.Card__title {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--font-dark);
+}
+
+.Card__text {
+    margin-top: 12px;
+    line-height: 22px;
+}
