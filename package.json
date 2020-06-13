@@ -1,0 +1,22 @@
+{
+  "name": "first-landing",
+  "version": "1.0.0",
+  "description": "мой первый лэндинг",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaigerov/first-landing.git"
+  },
+  "author": "Gaigerov Mikhail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gaigerov/first-landing/issues"
+  },
+  "homepage": "https://github.com/Gaigerov/first-landing#readme",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
