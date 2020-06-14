@@ -18,6 +18,11 @@
     line-height: 53px;
 }
 
+.Block__header_first {
+    margin: 0px 520px;
+    color: var(--light);
+}
+
 .Block__header_second {
     font-size: 36px;
 }
@@ -27,8 +32,20 @@
     text-align: center;
 }
 
+.Block__subtitle_first {
+    color: var(--light);
+    margin-top: 170px;
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+}
+
 .Block__footer {
     display: flex;
     justify-content: center;
     margin-top: 55px;
+}
+
+.Block__first {
+    background-image: url(/images/Rectangle.png);
 }

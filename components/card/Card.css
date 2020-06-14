@@ -23,3 +23,29 @@
     margin-top: 12px;
     line-height: 22px;
 }
+
+.Menu__body:hover {
+    border-bottom: 2px solid var(--light);
+}
+.Menu__text {
+    color: var(--light);
+    text-align: center;
+    padding: 0 10px;
+
+}
+.Menu__body {
+    padding-bottom: 30px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.Menu__body_last {
+    margin-right: 160px;
+}
+
+.Menu {
+    display: flex;
+    margin: 0 15px;
+    justify-content: flex-end;
+}
