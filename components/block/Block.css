@@ -46,6 +46,44 @@
     margin-top: 55px;
 }
 
-.Block__first {
-    background-image: url(/images/Rectangle.png);
+.Block__footer_right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Block__body {
+  background-color: var(--grey);
+}
+
+.Block__body_primary {
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+  }
+
+.Block__header_third {
+    display: flex;
+    width: 424px;
+    font-size: 36px;
+    text-align: left;
+}
+
+.Block__header_fourth {
+    color: var(--light);
+    text-align: left;
+    font-size: 36px;
+    line-height: 53px;
+    width: 500px;
+}
+
+.Block_image {
+    display: flex;
+    width: 500px;
+    height: 400px;
+    margin-left: 150px;
+    border-radius: 30px;
+}
+.Block__column {
+    display: flex;
+    margin: 0 20px;
+    border-bottom: 1px solid var(--dark-grey);
+    padding-bottom: 90px;
 }

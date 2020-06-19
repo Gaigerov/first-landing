@@ -4,6 +4,7 @@
 @import url('./components/block/Block.css');
 @import url('./components/card/Card.css');
 @import url('./components/button/Button.css');
+@import url('./components/menu/Menu.css');
 
 html, body {
     height: 100%;
@@ -44,4 +45,9 @@ h1, h2, h3, h4, h5, h6, p {
 
 .text-center {
     text-align: center;
+}
+
+.link {
+    margin-top: 30px;
+    color: var(--primary);
 }

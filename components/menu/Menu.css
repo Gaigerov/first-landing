@@ -1,0 +1,36 @@
+.Menu {
+    display: flex;
+    margin: 0 15px;
+    justify-content: flex-end;
+    }
+
+.Menu_first {
+    background-image: url(/images/Rectangle.svg);
+}
+
+.Menu__body {
+    padding-bottom: 30px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.Menu__body:last-child {
+    margin-right: 160px;
+}
+
+.Menu__body:hover {
+    display: inline-block;
+    border-bottom: 2px solid var(--light);
+}
+
+.Menu__text {
+    color: var(--light);
+    text-align: center;
+    padding: 0 10px;
+}
+.Menu_line {
+    display: flex;
+    opacity: 0.1;
+    margin-top: -40px;
+}
