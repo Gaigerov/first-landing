@@ -19,8 +19,9 @@
     margin-right: 160px;
 }
 
-.Menu__body:hover {
-    display: inline-block;
+.Menu__body:hover { 
+    display: flex;
+    cursor: pointer;
     border-bottom: 2px solid var(--light);
 }
 
@@ -29,6 +30,7 @@
     text-align: center;
     padding: 0 10px;
 }
+
 .Menu_line {
     display: flex;
     opacity: 0.1;

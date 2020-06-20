@@ -9,7 +9,10 @@
 }
 
 .Card__body_third {
-    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    margin-top: 70px;
 }
 
 .Card__image {
@@ -19,8 +22,6 @@
 
 .Card__image_mini {
     width: 40px;
-    margin-top: 70px;
-    margin-right: 20px;
 }
 
 .Card__title {
@@ -43,4 +44,28 @@
 .Card__text_third {
     font-size: 16px;
     line-height: 25px;
+}
+
+.Card__image_fourth {
+    margin-right: 30px;
+    width: 350px;
+    height: 300px;
+}
+
+.Card__half {
+    margin-bottom: -250px;
+    padding-bottom: 85px;
+}
+
+.Card__title_margin {
+    margin-bottom: 30px;
+}
+
+.Card__five {
+    display: flex;
+    width: 255px;
+}
+.Card_first {
+    display: block;
+    margin-right: 30px;
 }
