@@ -1,0 +1,34 @@
+.OurProjectBlock {
+    width: 100%;
+    display: flex;
+    background-color: var(--grey); 
+}
+.OurProjectBlock__container {
+    width: 1000px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.OurProjectBlock__header {
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--font-dark);
+    line-height: 53px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.OurProjectBlock__subtitle {
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--ongrey);
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.OurProjects__button {
+    margin-bottom: 130px;
+}

@@ -1,0 +1,30 @@
+.ContactsBlock {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--font-dark);
+}
+
+.ContactsBlock__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ContactsBlock__header {
+    display: flex;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--black);
+    justify-content: space-between;
+}
+
+.ContactsBlock__card {
+display: flex;
+justify-content: space-between;
+}
+
+.ContactsBlock__card_text {
+    font-size: 14px;
+    line-height: 22px;
+}

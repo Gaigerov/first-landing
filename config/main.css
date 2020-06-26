@@ -5,10 +5,22 @@
 @import url('../components/card/Card.css');
 @import url('../components/button/Button.css');
 @import url('../components/menu/Menu.css');
+@import url('../components/main-block/MainBlock.css');
+@import url('../components/mobile-block/MobileBlock.css');
+@import url('../components/standarts-block/StandartsBlock.css');
+@import url('../components/our-works-block/OurWorksBlock.css');
+@import url('../components/our-projects-block/OurProjectsBlock.css');
+@import url('../components/video-project-block/VideoProjectBlock.css');
+@import url('../components/subscribe-block/SubscribeBlock.css');
+@import url('../components/contacts-block/ContactsBlock.css');
+@import url('../components/image-card/ImageCard.css');
+
 
 html, body {
     height: 100%;
     min-width: 1200px;
+    margin: 0;
+    padding: 0;
 }
 
 * {

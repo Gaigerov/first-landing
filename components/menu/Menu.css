@@ -1,38 +1,31 @@
 .Menu {
     display: flex;
-    margin: 0 15px;
     justify-content: flex-end;
-    }
-
-.Menu_first {
-    background-image: url(/images/Rectangle.svg);
+    align-items: center;
+    border-bottom: 1px solid var(--opacity-light);
+    width: 100%;
+    height: 100px;
+    padding-right: 160px;
 }
 
-.Menu__body {
-    padding-bottom: 30px;
-    margin: 40px;
+.Menu__item {
     display: flex;
     justify-content: center;
-}
-
-.Menu__body:last-child {
-    margin-right: 160px;
-}
-
-.Menu__body:hover { 
-    display: flex;
-    cursor: pointer;
-    border-bottom: 2px solid var(--light);
-}
-
-.Menu__text {
+    align-items: center;
     color: var(--light);
-    text-align: center;
-    padding: 0 10px;
+    height: 100%;
+    position: relative;
+    padding: 0 20px;
+    text-decoration: none;
 }
 
-.Menu_line {
-    display: flex;
-    opacity: 0.1;
-    margin-top: -40px;
+.Menu__item:hover::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--light);
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }

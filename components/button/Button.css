@@ -10,11 +10,3 @@
     background-color: var(--hover);
     cursor: pointer;
 }
-
-.Button__first {
-    margin-bottom: 330px;
-}
-
-.Button__fourth {
-    margin-left: 370px;
-}
