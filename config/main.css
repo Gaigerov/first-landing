@@ -38,10 +38,22 @@ button {
     outline: none;
 }
 
+input, textarea {
+    outline: none;
+}
+
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
 }
+
+a {
+   color: var(--primary); 
+}
+
+a:hover {
+    color: var(--dark-grey); 
+ }
 
 .d-flex {
     display: flex;
@@ -61,8 +73,4 @@ h1, h2, h3, h4, h5, h6, p {
 
 .link {
     margin-top: 30px;
-}
-
-a {
-    color: var(--primary);
 }

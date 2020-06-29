@@ -1,54 +1,48 @@
 .VideoProjectBlock {
-
-    background-image: url(/images/Rectangle.svg);
-    background-position: 49% 87%;
+    background-image: url("../../images/Rectangle.svg");
+    background-position: 49% 155%;
     background-repeat: no-repeat;
-
 }
 
 .VideoProjectBlock__container {
+    display: flex;
+    padding: 0;
     flex-direction: column;
-    align-items: center;
-    height: 570px;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
 }
 
 .VideoProjectBlock__header {
+    display: flex;
+    justify-content: center;
     font-size: 36px;
     font-weight: bold;
     color: var(--light);
     line-height: 53px;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-bottom: 30px;
     text-align: center;
 }
 
 .VideoProjectBlock__subtitle {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-size: 16px;
     line-height: 25px;
     color: var(--light);
     margin-bottom: 70px;
-}
-
-
-.VideoProjectBlock__Player {
-    height: 430px;
-    display: flex;
-    flex-direction: column;
+    text-align: center;
 }
 
 .VideoProjectBlock__button {
     display: flex;
-    position: absolute;
     width: 300px;
     height: 100px;
-    border-radius: 100px;
+    border-radius: 200px;
     color: var(--light);
-    border-color: var(--black);
+    border: 2px solid var(--light);
     padding-left: 40px;
-    left: 810px;
-    top: 4533px;
-
 }
 
 .VideoProjectBlock__button:hover {
@@ -56,22 +50,39 @@
     cursor: pointer;
 }    
 
-.VideoProjectBlock__button_image {
-    display: flex;
-    position: relative;
-}
-
-.VideoProjectBlock__button_item {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-
-.VideoProjectBlock__button_text {
+.VideoProjectBlock__buttonText {
     font-size: 16px;
     line-height: 25px;
     color: var(--light);
     display: flex;
     align-items: center;
     margin-left: 21px;
+}
+
+.VideoProjectBlock__videoPlayer {
+    position: relative;
+    height: 430px;
+    display: flex;
+}
+
+.VideoProjectBlock__Youtube {
+    height: 100%;
+    width: 970px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.VideoProjectBlock__Player {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 970px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../images/Video.svg");
+    border-radius: 10px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
