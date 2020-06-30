@@ -66,11 +66,3 @@ a:hover {
 .flex-column {
     flex-direction: column;
 }
-
-.text-center {
-    text-align: center;
-}
-
-.link {
-    margin-top: 30px;
-}

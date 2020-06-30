@@ -65,8 +65,8 @@
 
     <div class="Block StandartsBlock">
         <div class="Block__container StandartsBlock__container">
-            <div class="StandartsBlock__column">
-                <div>
+            <div class="StandartsBlock__top">
+                <div class="StandartsBlock__text">
                     <h2 class="StandartsBlock__header">Высокие стандарты разработки</h2>
                     <p class="StandartsBlock__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
                         вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
@@ -75,9 +75,7 @@
                         <a href="https://example.com">Подробнее о компании</a>
                     </div>
                 </div>
-                <div class="StandartBlock__image">
-                    <img src="./images/Rectangle 2.svg" alt="photo">
-                </div>
+                <img src="./images/Rectangle 2.svg" alt="photo" height="400px">
             </div>
             <div class="Card flex-row Card__location">
                 <div class="Card__container d-flex flex-column">
@@ -209,7 +207,7 @@
             <h2 class="SubscribeBlock__header">Подпишитесь на нашу рассылку</h2>
             <p class="SubscribeBlock__subtitle">Полезные статьи, акции, новости - получите все это сейчас!</p>
             <div class="SubscribeBlock__button">
-                <input type="email" placeholder="Ваш email">
+                <input type="email" placeholder="Ваш email" class="SubscribeBlock__input">
                 <input type="submit" value="Подписаться" class="SubscribeBlock__submit">
             </div>
             <p class="SubscribeBlock__text">Мы не шлем спам, и передаем никому ваши данные.</p>
@@ -217,11 +215,82 @@
     </div>
 
     <div class="Block ContactsBlock">
-        <div class="ContactsBlock__container"> 
-            <h2 class="ContactsBlock__header">Контактная информация</h2>
-            <div class="ContactsBlock__card">
-                <img src="./images/convert.svg" alt="letter">
-                <p class="ContactsBlock__cardText">test@test.ru</p>
+        <div class="Block__container ContactsBlock__container">
+            <div>
+                <h2 class="ContactsBlock__header">Контактная информация</h2>
+                <div class="d-flex">
+                    <img src="./images/convert.svg" alt="letter">
+                    <p class="ContactsBlock__text">test@test.ru</p>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/phone.svg" alt="phone">
+                    <p class="ContactsBlock__text">+8 777 555 66 99</p>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/placeholder.svg" alt="placeholder">
+                    <p class="ContactsBlock__text">Москва, Бульвар Ленина 33</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="ContactsBlock__header">Основные ссылки</h2>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="arrow">
+                    <p class="ContactsBlock__text">Главная</p>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="arrow">
+                    <p class="ContactsBlock__text">Наши проекты</p>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="arrow">
+                    <p class="ContactsBlock__text">Наши услуги</p>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="arrow">
+                    <p class="ContactsBlock__text">Контакты</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="ContactsBlock__header">Наши проекты</h2>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="letter">
+                    <p class="ContactsBlock__text">РосНано</p>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="letter">
+                    <p class="ContactsBlock__text">Сколково</p>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="letter">
+                    <p class="ContactsBlock__text">Проект "Восток"</p>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="letter">
+                    <p class="ContactsBlock__text">ТЭЦ Калининграда</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="ContactsBlock__header">Социальные сети</h2>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="letter">
+                    <p class="ContactsBlock__text">VK.com</p>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="letter">
+                    <p class="ContactsBlock__text">Instagram</p>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="letter">
+                    <p class="ContactsBlock__text">Facebook</p>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="letter">
+                    <p class="ContactsBlock__text">Twitter</p>
+                </div>
+            </div>
+        </div>
+        <div class="ContactsBlock__footer">
+            <p class="ContactsBlock__text">(с) 2019. Все права защищены</p>
         </div>
     </div>
     </div>

@@ -1,5 +1,5 @@
 .VideoProjectBlock {
-    background-image: url("../../images/Rectangle.svg");
+    background-image: url('../../images/Rectangle.svg');
     background-position: 49% 155%;
     background-repeat: no-repeat;
 }
@@ -46,8 +46,8 @@
 }
 
 .VideoProjectBlock__button:hover {
-    background-color: transparent;
     cursor: pointer;
+    opacity: 0.7;
 }    
 
 .VideoProjectBlock__buttonText {
@@ -81,7 +81,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../../images/Video.svg");
+    background-image: url('../../images/Video.svg');
     border-radius: 10px;
     background-position: 50% 50%;
     background-repeat: no-repeat;

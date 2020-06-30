@@ -6,7 +6,7 @@
 .ImageCard__img {
     width: 100%;
     height: 300px;
-    background-image: url(/images/Photo.svg);
+    background-image: url('/images/Photo.svg');
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;

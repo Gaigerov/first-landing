@@ -4,10 +4,6 @@
     align-items: center;
 }
 
-.Block_grey {
-    background-color: var(--grey);
-}
-
 .Block__container {
     padding: 105px 0;
     width: 1000px;
@@ -17,29 +13,4 @@
     display: flex;
     justify-content: center;
     margin-top: 55px;
-}
-
-.Block__footer_right {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.Block__body {
-    background-color: var(--grey);
-}
-
-.Block__body_primary {
-    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
-  }
-
-.Block_image {
-    display: flex;
-    margin-left: 150px;
-    border-radius: 30px;
-}
-.Block__column {
-    display: flex;
-    margin: 0 20px;
-    border-bottom: 1px solid var(--dark-grey);
-    padding-bottom: 90px;
 }

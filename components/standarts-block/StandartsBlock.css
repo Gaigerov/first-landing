@@ -8,6 +8,10 @@
     align-items: left;
 }
 
+.StandartsBlock__text {
+    margin-right: 30px;
+}
+
 .StandartsBlock__header {
     display: flex;
     flex-direction: column;
@@ -30,17 +34,12 @@
 
 .StandartsBlock__link {
     color: var(--primary);
-    margin-top: 30px;
 }
 
-.StandartBlock__image {
-    width: 100%;
-    height: 400px;
-}
-
-.StandartsBlock__column {
+.StandartsBlock__top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-bottom: 90px;
     border-bottom: 1px solid var(--dark-grey);
 }

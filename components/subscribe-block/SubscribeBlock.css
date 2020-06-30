@@ -53,18 +53,19 @@
     border-radius: 30px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
+    border: 0px;
     color: var(--light);
 }
 
-input[type='email'] {
-    color: var(--primary);
-    padding-left: 30px;
+.SubscribeBlock__submit:hover {
+    background-color: var(--hover);
+    cursor: pointer;
 }
 
-input {
-
+.SubscribeBlock__input {
+    padding-left: 30px;
     width: 130%;
     background-color: transparent;
     border: 0px;
-    color: var(--grey);
+    color: var(--black);
 }
