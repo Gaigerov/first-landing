@@ -63,6 +63,8 @@
     position: relative;
     height: 430px;
     display: flex;
+    align-self: center;
+    
 }
 
 .VideoProjectBlock__Youtube {

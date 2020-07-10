@@ -3,6 +3,7 @@
     display: flex;
     background-color: var(--grey); 
 }
+
 .OurProjectBlock__container {
     width: 1000px;
     flex-direction: column;
