@@ -6,4 +6,7 @@
     --light: #FFFFFF;
     --hover: #91b6ff;
     --dark-grey: #E0E0E0;
+    --black: #000000;
+    --ongrey: #999999;
+    --opacity-light: rgba(255, 255, 255, 0.3);
 }

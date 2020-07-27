@@ -1,0 +1,39 @@
+.ImageCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.ImageCard__img {
+    width: 100%;
+    height: 300px;
+    background-image: url('/images/Photo.svg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.ImageCard__header {
+    margin: 30px 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+}
+
+.ImageCard__order {
+    color: var(--primary);
+    margin-right: 12px;
+}
+
+.ImageCard__title {
+    color: var(--font-dark);
+}
+
+.ImageCard__text {
+    margin-bottom: 30px;
+}
+
+.ImageCard__link {
+    color: var(--primary);
+}

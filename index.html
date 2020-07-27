@@ -1,131 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Лэндинг</title>
     <link rel="stylesheet" href="./config/main.css">
+
 </head>
+
 <body>
-<div class="Menu_first">
-    <div class="Menu">
-       <div class="Menu__body">
-           <p class="Menu__text">Главная</p>
-       </div>
-       <div class="Menu__body">
-           <p class="Menu__text">Наши проекты</p>
-       </div>
-       <div class="Menu__body">
-           <p class="Menu__text">Услуги</p>
-       </div>
-       <div class="Menu__body">
-           <p class="Menu__text">Новости</p>
-       </div>
-       <div class="Menu__body">
-           <p class="Menu__text">Контакты</p>
-       </div>
-    </div>  
-    <hr class="Menu_line">
-    <div class="d-flex Block__subtitle_first"">
-        <p class="Menu__text">Передовая IT студия</p>
-    </div>
-    <div class="d-flex">
-        <h1 class="Block__header Block__header_first">Мы создаем легкие решения сложных задач и проблем</h1>
-    </div>
-    <div class="Block__footer">
-        <button class="Button Button__first">Наши проекты</button>
-    </div>
-</div>
-    <div class="Block">
-        <h2 class="Block__header Block__header_second">Мы создаем мобильные приложения для крупных корпораций</h2>
-        <p class="Block__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita facilis ullam in odit excepturi vitae id amet corrupti. Placeat optio soluta numquam aliquid minus, provident delectus eligendi cum omnis possimus!</p>
-        <div class="d-flex">
-            <div class="Card">
-                <img src="./images/list.svg" alt="Лист" class="Card__image">
-                <div class="Card__body">
-                    <h3 class="Card__title">Создание сайтов</h3>
-                    <p class="Card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, porro!</p>
-                </div>
-            </div>
-            <div class="Card">
-                <img src="./images/list.svg" alt="Лист" class="Card__image">
-                <div class="Card__body">
-                    <h3 class="Card__title">Создание сайтов</h3>
-                    <p class="Card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, porro!</p>
-                </div>
-            </div>
-            <div class="Card">
-                <img src="./images/list.svg" alt="Лист" class="Card__image">
-                <div class="Card__body">
-                    <h3 class="Card__title">Создание сайтов</h3>
-                    <p class="Card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, porro!</p>
-                </div>
-            </div>
+    <div class="Block MainBlock">
+        <div class="Menu">
+            <a href="https://example.com" class="Menu__item">Главная</a>
+            <a href="https://example.com" class="Menu__item">Наши проекты</a>
+            <a href="https://example.com" class="Menu__item">Услуги</a>
+            <a href="https://example.com" class="Menu__item">Новости</a>
+            <a href="https://example.com" class="Menu__item">Контакты</a>
         </div>
-        <div class="Block__footer">
-            <button class="Button">Все услуги</button>
+        <div class="Block__container MainBlock__container">
+            <p class="MainBlock__subHeader">Передовая IT студия</p>
+            <h1 class="MainBlock__header">Мы создаем легкие решения сложных задач и проблем</h1>
+            <button class="Button MainBlock__button">Наши проекты</button>
         </div>
     </div>
-    <div class="Block Block__body">
-    <div class="Block__column">
-    <div>
-        <h2 class="Block__header Block__header_third">Высокие стандарты разработки</h2>
-        <p class="Card__text Card__text_third">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-        <div class="link">
-         <a href="https://example.com">Подробнее о компании</a>
-        </div>
-    </div>
-    <div class="Block_image">
-        <img src="./images/Rectangle 2.svg" alt="фото">
-    </div>
-</div>
-<div class="d-flex">
-    <div class="Card">
-        <div class="Card__body_third">
-        <img src="./images/web-programming.svg" alt="Веб" class="Card__image_mini">
-        <h3 class="Card__title_third">125</h3>
-        <p class="Card__text_third">Our projects</p>
-        
-        </div>
-     <div class="Card">
-            <div class="Card__body_third">
-            <img src="./images/web-programming.svg" alt="Веб" class="Card__image_mini">
-            <h3 class="Card__title_third">125</h3>
-            <p class="Card__text_third">Our projects</p>
-            </div>
-     <div class="Card">
-                <div class="Card__body_third">
-                <img src="./images/web-programming.svg" alt="Веб" class="Card__image_mini">
-                <h3 class="Card__title_third">125</h3>
-                <p class="Card__text_third">Our projects</p>
-                </div>
-     <div class="Card">
-                    <div class="Card__body_third">
-                    <img src="./images/web-programming.svg" alt="Веб" class="Card__image_mini">
-                    <h3 class="Card__title_third">125</h3>
-                    <p class="Card__text_third">Our projects</p>
+
+    <div class="Block MobileBlock">
+        <div class="Block__container MobileBlock__container">
+            <h2 class="MobileBlock__header">Мы создаем мобильные приложения для крупных корпораций</h2>
+            <p class="MobileBlock__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita facilis
+                ullam in odit excepturi vitae id amet corrupti. Placeat optio soluta numquam aliquid minus, provident
+                delectus eligendi cum omnis possimus!</p>
+            <div class="d-flex">
+                <div class="Card">
+                    <img src="./images/list.svg" alt="list">
+                    <div class="Card__body">
+                        <h3 class="Card__title">Создание сайтов</h3>
+                        <p class="Card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, porro!
+                        </p>
                     </div>
-     <div class="Card">
-                        <div class="Card__body_third">
-                        <img src="./images/web-programming.svg" alt="Веб" class="Card__image_mini">
-                        <h3 class="Card__title_third">125</h3>
-                        <p class="Card__text_third">Our projects</p>
-                        </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+                </div>
+                <div class="Card">
+                    <img src="./images/list.svg" alt="list">
+                    <div class="Card__body">
+                        <h3 class="Card__title">Создание сайтов</h3>
+                        <p class="Card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, porro!
+                        </p>
+                    </div>
+                </div>
+                <div class="Card">
+                    <img src="./images/list.svg" alt="list">
+                    <div class="Card__body">
+                        <h3 class="Card__title">Создание сайтов</h3>
+                        <p class="Card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, porro!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="Block__footer">
+                <button class="Button MobileBlock__button">Все услуги</button>
+            </div>
+        </div>
+    </div>
 
-<div class="Block Block__body_primary">
-    <div class="Card">
-        <h3 class="Block__header Block__header_fourth">Наши работы, на которых мы специализируемся</h3>
-        <button class="Button Button__fourthg">Все услуги</button>
-</div>
+    <div class="Block StandartsBlock">
+        <div class="Block__container StandartsBlock__container">
+            <div class="StandartsBlock__top">
+                <div class="StandartsBlock__text">
+                    <h2 class="StandartsBlock__header">Высокие стандарты разработки</h2>
+                    <p class="StandartsBlock__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                        вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                        стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                    <div>
+                        <a href="https://example.com" class="StandartsBlock__link">Подробнее о компании</a>
+                    </div>
+                </div>
+                <img src="./images/Rectangle 2.svg" alt="photo" height="400px">
+            </div>
+            <div class="Card flex-row Card__location">
+                <div class="Card__container d-flex flex-column">
+                    <div class="d-flex flex-row">
+                        <img src="./images/web-programming.svg" alt="project" width="40px">
+                        <h3 class="Card__header">125</h3>
+                    </div>
+                    <p class="Card__footer">Our projects</p>
+                </div>
+                <div class="Card__container d-flex flex-column">
+                    <div class="d-flex flex-row">
+                        <img src="./images/web-programming.svg" alt="project" width="40px">
+                        <h3 class="Card__header">125</h3>
+                    </div>
+                    <p class="Card__footer">Our projects</p>
+                </div>
+                <div class="Card__container d-flex flex-column">
+                    <div class="d-flex flex-row">
+                        <img src="./images/web-programming.svg" alt="project" width="40px">
+                        <h3 class="Card__header">125</h3>
+                    </div>
+                    <p class="Card__footer">Our projects</p>
+                </div>
+                <div class="Card__container d-flex flex-column">
+                    <div class="d-flex flex-row">
+                        <img src="./images/web-programming.svg" alt="project" width="40px">
+                        <h3 class="Card__header">125</h3>
+                    </div>
+                    <p class="Card__footer">Our projects</p>
+                </div>
+                <div class="Card__container d-flex flex-column">
+                    <div class="d-flex flex-row">
+                        <img src="./images/web-programming.svg" alt="project" width="40px">
+                        <h3 class="Card__header">125</h3>
+                    </div>
+                    <p class="Card__footer">Our projects</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        
-</div>
+    <div class="Block">
+        <div class="OurWorksBlock__top">
+            <div class="Block__container">
+                <div class="OurWorksBlock__wrapper">
+                    <h2 class="OurWorksBlock__header">Наши работы, на которых мы специализируемся</h2>
+                    <button class="Button">Все услуги</button>
+                </div>
+            </div>
+        </div>
+        <div class="Block__container OurWorksBlock__bottom">
+            <div class="OurWorksBlock__grid">
+                <div class="ImageCard">
+                    <div class="ImageCard__img"></div>
+                    <h3 class="ImageCard__header">
+                        <span class="ImageCard__order">01.</span><span class="ImageCard__title">Исследование и
+                            упаковка</span>
+                    </h3>
+                    <p class="ImageCard__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                        вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                    </p>
+                    <a href="https://example.com" class="ImageCard__link">Подробнее</a>
+                </div>
+                <div class="ImageCard">
+                    <div class="ImageCard__img"></div>
+                    <h3 class="ImageCard__header">
+                        <span class="ImageCard__order">01.</span><span class="ImageCard__title">Исследование и
+                            упаковка</span>
+                    </h3>
+                    <p class="ImageCard__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                        вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                    </p>
+                    <a href="https://example.com" class="ImageCard__link">Подробнее</a>
+                </div>
+                <div class="ImageCard">
+                    <div class="ImageCard__img"></div>
+                    <h3 class="ImageCard__header">
+                        <span class="ImageCard__order">01.</span><span class="ImageCard__title">Исследование и
+                            упаковка</span>
+                    </h3>
+                    <p class="ImageCard__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                        вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                    </p>
+                    <a href="https://example.com" class="ImageCard__link">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Block OurProjectBlock">
+        <div class="Block__container OurProjectBlock__container">
+            <h2 class="OurProjectBlock__header">Наши проекты</h2>
+            <p class="OurProjectBlock__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати
+                и
+                вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+            <div class="OurProjectBlock__portfolio">
+                <img src="/images/Photo2.svg" alt="portfolio" height="200px">
+                <img src="/images/Photo2.svg" alt="portfolio" height="200px">
+                <img src="/images/Photo2.svg" alt="portfolio" height="200px">
+                <img src="/images/Photo2.svg" alt="portfolio" height="200px">
+            </div>
+            <div class="Block__footer">
+                <button class="Button OurProjectBlock__button">Все услуги</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="Block VideoProjectBlock">
+        <div class="Block__container">
+            <div class="VideoProjectBlock__container">
+                <h2 class="VideoProjectBlock__header">Видео о нашей работе</h2>
+                <p class="VideoProjectBlock__subtitle">Просто посмотрите, как мы работаем</p>
+                <div class="VideoProjectBlock__videoPlayer">
+                    <div class="VideoProjectBlock__Youtube" id="player"></div>
+                    <div class="VideoProjectBlock__Player">
+                        <span class="VideoProjectBlock__button">
+                            <img src="./images/play-button.svg" alt="Play">
+                            <p class="VideoProjectBlock__buttonText">Смотреть видео</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="Block SubscribeBlock">
+        <div class="Block__container SubscribeBlock__container">
+            <h2 class="SubscribeBlock__header">Подпишитесь на нашу рассылку</h2>
+            <p class="SubscribeBlock__subtitle">Полезные статьи, акции, новости - получите все это сейчас!</p>
+            <div class="SubscribeBlock__button">
+                <input type="email" placeholder="Ваш email" class="SubscribeBlock__input">
+                <input type="submit" value="Подписаться" class="SubscribeBlock__submit">
+            </div>
+            <p class="SubscribeBlock__text">Мы не шлем спам, и передаем никому ваши данные.</p>
+        </div>
+    </div>
+
+    <div class="Block ContactsBlock">
+        <div class="Block__container ContactsBlock__container">
+            <div>
+                <h2 class="ContactsBlock__header">Контактная информация</h2>
+                <div class="d-flex">
+                    <img src="./images/convert.svg" alt="letter">
+                    <p class="ContactsBlock__text">test@test.ru</p>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/phone.svg" alt="phone">
+                    <p class="ContactsBlock__text">+8 777 555 66 99</p>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/placeholder.svg" alt="placeholder">
+                    <p class="ContactsBlock__text">Москва, Бульвар Ленина 33</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="ContactsBlock__header">Основные ссылки</h2>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="arrow">
+                    <a href="https://example.com" class="ContactsBlock__text">Главная</a>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="arrow">
+                    <a href="https://example.com" class="ContactsBlock__text">Наши проекты</a>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="arrow">
+                    <a href="https://example.com" class="ContactsBlock__text">Наши услуги</a>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="arrow">
+                    <a href="https://example.com" class="ContactsBlock__text">Контакты</a>
+                </div>
+            </div>
+            <div>
+                <h2 class="ContactsBlock__header">Наши проекты</h2>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="letter">
+                    <a href="https://example.com" class="ContactsBlock__text">РосНано</a>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="letter">
+                    <a href="https://example.com" class="ContactsBlock__text">Сколково</a>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="letter">
+                    <a href="https://example.com" class="ContactsBlock__text">Проект "Восток"</a>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="letter">
+                    <a href="https://example.com" class="ContactsBlock__text">ТЭЦ Калининграда</a>
+                </div>
+            </div>
+            <div>
+                <h2 class="ContactsBlock__header">Социальные сети</h2>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="letter">
+                    <a href="https://example.com" class="ContactsBlock__text">VK.com</a>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="letter">
+                    <a href="https://example.com" class="ContactsBlock__text">Instagram</a>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="letter">
+                    <a href="https://example.com" p class="ContactsBlock__text">Facebook</a>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/arrow.svg" alt="letter">
+                    <a href="https://example.com" class="ContactsBlock__text">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="ContactsBlock__footer">
+            <p>(с) 2019. Все права защищены</p>
+        </div>
+    </div>
+    </div>
+    <script src="youtube.js"></script>
 </body>
+
 </html>
